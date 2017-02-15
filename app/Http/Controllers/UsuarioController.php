@@ -9,7 +9,7 @@ use App\User;
 use Laracasts\Flash\Flash;
 use Illuminate\Support\Facades\Redirect;
 use App\Http\Requests\UserRequest;
-
+use App\Http\Requests\EditRequest;
 use Illuminate\Support\Facades\DB;
 
 
@@ -17,9 +17,12 @@ class UsuarioController extends Controller
 {
     public function index(Request $request)
 	{
+                  
+               $query=trim($request->get('searchText'));
         
-		$users= User::orderBy('id','DESC')->paginate(3);
+		$users= User::name($request->get('name'))->orderBy('id','DESC')->paginate(3);
                 return view('admin.usuarios.index')->with('users',$users);
+                
 	}
 
 	/**
@@ -70,7 +73,8 @@ class UsuarioController extends Controller
 	{
             
             $users = User::find($id);
-            return view('admin.users.edit')->with('users',$users);
+      
+            return view('admin.usuarios.edit')->with('users',$users);
             
            
 	}
@@ -81,13 +85,13 @@ class UsuarioController extends Controller
 	 * @param  int  $id
 	 * @return Response
 	 */
-	public function update(Request $request, $id)
+	public function update(EditRequest $request, $id)
 	{
             $user = User::find($id);
                 $user->fill($request->all());
                 $user->save();
                 flash::success("Usuario editado correctamente");
-                return redirect()->route('admin.users.index');
+                return redirect()->route('admin.usuarios.index');
 	}
 
 	/**

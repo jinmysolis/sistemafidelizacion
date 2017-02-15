@@ -16,6 +16,9 @@
 <button type="submit" class="btn btn-info">Buscar</button>
                                         
 {!!Form::close()!!}
+
+
+
 <div class="text-center table-condensed" >
 <table class="table table-hover">
     <thead>

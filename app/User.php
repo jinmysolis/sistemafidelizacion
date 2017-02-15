@@ -24,5 +24,12 @@ class User extends Authenticatable
         'password', 'remember_token',
     ];
     
-    
+    public function scopeName($query,$name)
+         {
+         if($name != ""){
+         $query->where('name',"LIKE","%$name%");
+          }
+	}
 }
+
+
