@@ -22,9 +22,9 @@ Route::get('/home', 'HomeController@index');
 
 Route::group(['prefix' => 'admin','middleware' => 'auth'], function () {
     Route::resource('usuarios', 'UsuarioController');
-    Route::get('users/{id}/destroy',[
-            'uses'=>'UsuarioController@destroy', 
-            'as'=> 'admin.usuarios.destroy'
-         ]);
+//    Route::get('users/{id}/destroy',[
+//            'uses'=>'UsuarioController@destroy', 
+//            'as'=> 'admin.usuarios.destroy'
+//         ]);
     
  });

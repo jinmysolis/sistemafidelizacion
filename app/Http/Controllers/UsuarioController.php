@@ -10,12 +10,16 @@ use Laracasts\Flash\Flash;
 use Illuminate\Support\Facades\Redirect;
 use App\Http\Requests\UserRequest;
 
+use Illuminate\Support\Facades\DB;
+
+
 class UsuarioController extends Controller
 {
     public function index(Request $request)
 	{
-		$users= User::name($request->get('name'))->orderBy('id','DESC')->paginate(6);
-                return view('admin.users.index')->with('users',$users);
+        
+		$users= User::orderBy('id','DESC')->paginate(3);
+                return view('admin.usuarios.index')->with('users',$users);
 	}
 
 	/**
@@ -94,10 +98,11 @@ class UsuarioController extends Controller
 	 */
 	public function destroy($id)
 	{
-           $user= User::find($id);
-           $user->delete();
+                $persona=User::findOrFail($id);
+                $persona->delete();
+                
          
-           flash::warning('El usuario ha sido borrado correctamente');
-           return redirect()->route('admin.users.index');
+           flash::error('El usuario ha sido borrado correctamente');
+           return redirect()->route('admin.usuarios.index');
 	}
 }
