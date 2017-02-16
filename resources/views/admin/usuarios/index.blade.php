@@ -4,7 +4,7 @@
 
 @section('content')
 
-  <a class="btn btn-info" href="{{route('admin.usuarios.create')}}" role="button">Crear Nuevo Usuario</a>
+<!--  <a class="btn btn-info" href="{{route('admin.usuarios.create')}}" role="button">Crear Nuevo Usuario</a>-->
 
 {!!Form::open(['route'=>'admin.usuarios.index','method'=>'GET','class'=>'navbar-form navbar-left pull-right role="search" '])!!}
 
@@ -37,11 +37,11 @@
     <tbody>
     @foreach($users as $user)     
       <tr >
-        <td class="danger">{{ $user->id}}</td>
+        <td >{{ $user->id}}</td>
         <td>{{ $user->name}}</td>
         <td>{{ $user->apellido}}</td>
         <td>{{ $user->telefono}}</td>
-        <td>{{ $user->email}}</td>
+        <td>{{ $user->pais}}</td>
         <td>{{ $user->ciudad}}</td>
         
         

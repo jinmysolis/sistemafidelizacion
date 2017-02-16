@@ -31,7 +31,7 @@ class EditRequest extends Request
                         'ciudad'=>'required',
                         'sexo'=>'required',
                         'email'=>'required|email',
-                        'password'=>'required',
+                       
         ];
     }
 }

@@ -65,16 +65,13 @@
   {!!Form::email('email', null,['class'=>'form-control',' placeholder'=>'Por favor introduzca su Email'])!!}
 </div>
     
+  
+    
+</div>
 <div class="form-group">
-  {!!Form::label('password', 'Contraseña')!!}
-  {!!Form::password('password',['class'=>'form-control'])!!}
-</div>
-
-</div>
- 
   <p>
  <center><button type="submit" class="btn btn-info btn-lg">Editar Usuario</button></center>
  </p>
-
+</div>
 {!!Form::close()!!}
 @endsection

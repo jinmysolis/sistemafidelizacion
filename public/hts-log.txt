@@ -1,0 +1,56 @@
+HTTrack3.48-22+htsswf+htsjava launched on Wed, 15 Feb 2017 11:16:35 at http://preview.oklerthemes.com/porto/5.4.0/index-corporate-3.html +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "es, en, *" http://preview.oklerthemes.com/porto/5.4.0/index-corporate-3.html -O1 "C:\Mis lugares Web\fide" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+11:41:26	Warning: 	Retry after error -4 (No data (connection closed)) at link preview.oklerthemes.com/porto/5.4.0/vendor/simple-line-icons/fonts/Simple-Line-Icons.svg?v=2.4.0 (from preview.oklerthemes.com/porto/5.4.0/vendor/simple-line-icons/css/simple-line-icons.min.css)
+11:41:26	Warning: 	Retry after error -4 (No data (connection closed)) at link preview.oklerthemes.com/porto/5.4.0/vendor/rs-plugin/fonts/revicons/revicons.woff?5510888 (from preview.oklerthemes.com/porto/5.4.0/vendor/rs-plugin/css/settings.css)
+11:54:36	Warning: 	file not stored in cache due to bogus state (broken size, expected 2401576 got 1178220): preview.oklerthemes.com/porto/5.4.0/img/demos/photography/slides/slide-photography-5.jpg
+11:55:20	Warning: 	file not stored in cache due to bogus state (broken size, expected 2066408 got 941132): preview.oklerthemes.com/porto/5.4.0/img/demos/photography/slides/slide-photography-4.jpg
+12:20:20	Error: 	"Not Found" (404) at link preview.oklerthemes.com/porto/5.4.0/portfolio-single.html (from preview.oklerthemes.com/porto/5.4.0/index-corporate-4.html)
+12:20:21	Error: 	"Not Found" (404) at link preview.oklerthemes.com/porto/5.4.0/portfolio-2-columns.html (from preview.oklerthemes.com/porto/5.4.0/index-footer-advanced.html)
+12:20:21	Error: 	"Not Found" (404) at link preview.oklerthemes.com/porto/5.4.0/portfolio-3-columns.html (from preview.oklerthemes.com/porto/5.4.0/index-footer-advanced.html)
+12:20:21	Error: 	"Not Found" (404) at link preview.oklerthemes.com/porto/5.4.0/portfolio-4-columns.html (from preview.oklerthemes.com/porto/5.4.0/index-footer-advanced.html)
+12:20:21	Error: 	"Not Found" (404) at link preview.oklerthemes.com/porto/5.4.0/shortcodes.html (from preview.oklerthemes.com/porto/5.4.0/index-footer-light-narrow.html)
+12:20:55	Error: 	"Not Found" (404) at link preview.oklerthemes.com/porto-admin/edge/assets/vendor/summernote/summernote-bs3.css (from preview.oklerthemes.com/porto/5.4.0/feature-admin-forms-advanced.html)
+12:29:48	Warning: 	Retry after error -4 (Incorrect length (1178220 Bytes, 2401576 expected)) at link preview.oklerthemes.com/porto/5.4.0/img/demos/photography/slides/slide-photography-5.jpg (from preview.oklerthemes.com/porto/5.4.0/demo-photography.html)
+12:29:49	Warning: 	Retry after error -4 (Incorrect length (941132 Bytes, 2066408 expected)) at link preview.oklerthemes.com/porto/5.4.0/img/demos/photography/slides/slide-photography-4.jpg (from preview.oklerthemes.com/porto/5.4.0/demo-photography.html)
+12:37:59	Error: 	"Not Found" (404) at link preview.oklerthemes.com/porto/5.4.0/shop/master/analytics/analytics.js (from preview.oklerthemes.com/porto/5.4.0/shop/demo-shop-1.html)
+12:38:01	Error: 	"Not Found" (404) at link preview.oklerthemes.com/porto/5.4.0/shop/index.html (from preview.oklerthemes.com/porto/5.4.0/shop/demo-shop-2.html)
+12:38:02	Warning: 	Retry after error -4 (No data (connection closed)) at link preview.oklerthemes.com/porto/5.4.0/shop/demo-shop-4-category-banner-fullwidth.html (from preview.oklerthemes.com/porto/5.4.0/shop/demo-shop-4.html)
+12:38:06	Warning: 	Retry after error -4 (No data (connection closed)) at link preview.oklerthemes.com/porto/5.4.0/shop/demo-shop-7-blog.html (from preview.oklerthemes.com/porto/5.4.0/shop/demo-shop-7.html)
+12:38:09	Warning: 	Retry after error -4 (No data (connection closed)) at link preview.oklerthemes.com/porto/5.4.0/img/demos/shop/products/shop7/product6-2.jpg (from preview.oklerthemes.com/porto/5.4.0/shop/demo-shop-7.html)
+12:38:11	Warning: 	Retry after error -4 (No data (connection closed)) at link preview.oklerthemes.com/porto/5.4.0/img/demos/shop/products/shop7/product11.jpg (from preview.oklerthemes.com/porto/5.4.0/shop/demo-shop-7.html)
+12:38:12	Error: 	"Not Found" (404) at link preview.oklerthemes.com/porto/5.4.0/shop/img/clients/client-1.jpg (from preview.oklerthemes.com/porto/5.4.0/shop/demo-shop-7.html)
+12:38:14	Warning: 	Retry after error -4 (No data (connection closed)) at link preview.oklerthemes.com/porto/5.4.0/img/demos/shop/products/shop8/product4.jpg (from preview.oklerthemes.com/porto/5.4.0/shop/demo-shop-8.html)
+12:38:17	Warning: 	Retry after error -4 (No data (connection closed)) at link preview.oklerthemes.com/porto/5.4.0/img/demos/shop/slides/shop10/slide1.jpg (from preview.oklerthemes.com/porto/5.4.0/shop/demo-shop-10.html)
+12:38:19	Warning: 	Retry after error -4 (No data (connection closed)) at link preview.oklerthemes.com/porto/5.4.0/img/demos/shop/slides/shop11/slide1.jpg (from preview.oklerthemes.com/porto/5.4.0/shop/demo-shop-11.html)
+12:38:25	Error: 	"Not Found" (404) at link preview.oklerthemes.com/porto/5.4.0/shop/img/demos/shop/bg-shop13-1.jpg (from preview.oklerthemes.com/porto/5.4.0/shop/demo-shop-13.html)
+12:38:25	Error: 	"Not Found" (404) at link preview.oklerthemes.com/porto/5.4.0/shop/img/demos/shop/bg-shop13-2.jpg (from preview.oklerthemes.com/porto/5.4.0/shop/demo-shop-13.html)
+12:38:27	Warning: 	Retry after error -4 (No data (connection closed)) at link preview.oklerthemes.com/porto/5.4.0/shop/demo-shop-15-product-details.html (from preview.oklerthemes.com/porto/5.4.0/shop/demo-shop-15.html)
+12:38:28	Warning: 	Retry after error -4 (No data (connection closed)) at link preview.oklerthemes.com/porto/5.4.0/img/demos/shop/bg-shop15-2.jpg (from preview.oklerthemes.com/porto/5.4.0/shop/demo-shop-15.html)
+12:38:30	Warning: 	Retry after error -4 (No data (connection closed)) at link preview.oklerthemes.com/porto/5.4.0/shop/demo-shop-17-category-banner-boxed-image.html (from preview.oklerthemes.com/porto/5.4.0/shop/demo-shop-17.html)
+12:38:32	Warning: 	Retry after error -4 (No data (connection closed)) at link preview.oklerthemes.com/porto-admin/edge/assets/vendor/summernote/font/summernote.eot? (from preview.oklerthemes.com/porto-admin/edge/assets/vendor/summernote/summernote.css)
+12:38:32	Error: 	"Not Found" (404) at link preview.oklerthemes.com/porto/5.4.0/ajax/img/projects/project.jpg (from preview.oklerthemes.com/porto/5.4.0/ajax/portfolio-ajax-project.html)
+12:38:32	Error: 	"Not Found" (404) at link preview.oklerthemes.com/porto/5.4.0/ajax/img/projects/project-1.jpg (from preview.oklerthemes.com/porto/5.4.0/ajax/portfolio-ajax-project-1.html)
+12:38:32	Error: 	"Not Found" (404) at link preview.oklerthemes.com/porto/5.4.0/ajax/img/projects/project-1-2.jpg (from preview.oklerthemes.com/porto/5.4.0/ajax/portfolio-ajax-project-1.html)
+12:38:32	Error: 	"Not Found" (404) at link preview.oklerthemes.com/porto/5.4.0/ajax/img/projects/project-2.jpg (from preview.oklerthemes.com/porto/5.4.0/ajax/portfolio-ajax-project-2.html)
+12:38:32	Error: 	"Not Found" (404) at link preview.oklerthemes.com/porto/5.4.0/ajax/img/projects/project-3.jpg (from preview.oklerthemes.com/porto/5.4.0/ajax/portfolio-ajax-project-3.html)
+12:38:32	Error: 	"Not Found" (404) at link preview.oklerthemes.com/porto/5.4.0/ajax/img/projects/project-4.jpg (from preview.oklerthemes.com/porto/5.4.0/ajax/portfolio-ajax-project-4.html)
+12:38:32	Error: 	"Not Found" (404) at link preview.oklerthemes.com/porto/5.4.0/ajax/img/projects/project-5.jpg (from preview.oklerthemes.com/porto/5.4.0/ajax/portfolio-ajax-project-5.html)
+12:38:32	Error: 	"Not Found" (404) at link preview.oklerthemes.com/porto/5.4.0/ajax/img/projects/project-6.jpg (from preview.oklerthemes.com/porto/5.4.0/ajax/portfolio-ajax-project-6.html)
+12:38:32	Error: 	"Not Found" (404) at link preview.oklerthemes.com/porto/5.4.0/ajax/img/projects/project-7.jpg (from preview.oklerthemes.com/porto/5.4.0/ajax/portfolio-ajax-project-7.html)
+12:38:57	Error: 	"Not Found" (404) at link preview.oklerthemes.com/porto/5.4.0/shop/img/benefits/benefits-1.jpg (from preview.oklerthemes.com/porto/5.4.0/shop/demo-shop-1-about-us.html)
+12:38:57	Error: 	"Not Found" (404) at link preview.oklerthemes.com/porto/5.4.0/shop/img/benefits/benefits-2.jpg (from preview.oklerthemes.com/porto/5.4.0/shop/demo-shop-1-about-us.html)
+12:38:57	Error: 	"Not Found" (404) at link preview.oklerthemes.com/porto/5.4.0/shop/img/benefits/benefits-3.jpg (from preview.oklerthemes.com/porto/5.4.0/shop/demo-shop-1-about-us.html)
+12:38:57	Error: 	"Not Found" (404) at link preview.oklerthemes.com/porto/5.4.0/shop/img/benefits/benefits-4.jpg (from preview.oklerthemes.com/porto/5.4.0/shop/demo-shop-1-about-us.html)
+12:38:57	Error: 	"Not Found" (404) at link preview.oklerthemes.com/porto/5.4.0/shop/img/benefits/benefits-5.jpg (from preview.oklerthemes.com/porto/5.4.0/shop/demo-shop-1-about-us.html)
+12:38:57	Error: 	"Not Found" (404) at link preview.oklerthemes.com/porto/5.4.0/shop/img/benefits/benefits-6.jpg (from preview.oklerthemes.com/porto/5.4.0/shop/demo-shop-1-about-us.html)
+12:38:57	Error: 	"Not Found" (404) at link preview.oklerthemes.com/porto/5.4.0/shop/blog-post.html (from preview.oklerthemes.com/porto/5.4.0/shop/demo-shop-1-blog.html)
+12:38:57	Warning: 	Retry after error -4 (No data (connection closed)) at link preview.oklerthemes.com/porto-admin/edge/assets/vendor/summernote/font/summernote.eot? (from preview.oklerthemes.com/porto-admin/edge/assets/vendor/summernote/summernote.css)
+
+HTTrack Website Copier/3.48-22 mirror complete in 1 hours 22 minutes 30 seconds : 2377 links scanned, 2333 files written (141296742 bytes overall) [107189106 bytes received at 21654 bytes/sec], 41249412 bytes transferred using HTTP compression in 872 files, ratio 15%, 2.8 requests per connection
+(27 errors, 18 warnings, 0 messages)

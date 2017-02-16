@@ -3,6 +3,7 @@
 namespace App\Http;
 
 use Illuminate\Foundation\Http\Kernel as HttpKernel;
+use Illuminate\Foundation\Http\Middleware\Authorize;
 
 class Kernel extends HttpKernel
 {
@@ -31,6 +32,14 @@ class Kernel extends HttpKernel
             \App\Http\Middleware\VerifyCsrfToken::class,
         ],
 
+        'admin' =>[
+            'web',
+            'auth',
+            Authorize::class.':admin',
+        ],
+        
+        
+        
         'api' => [
             'throttle:60,1',
         ],

@@ -45,7 +45,7 @@ class UsuarioController extends Controller
 	{
            
            $user = new User($request->all());
-           $user->password= bcrypt($request->password);
+           
            $user->save();
            flash::success("insertado correctamente");
           
@@ -85,8 +85,9 @@ class UsuarioController extends Controller
 	 * @param  int  $id
 	 * @return Response
 	 */
-	public function update(EditRequest $request, $id)
+	public function update(Request $request, $id)
 	{
+            dd('hola');
             $user = User::find($id);
                 $user->fill($request->all());
                 $user->save();

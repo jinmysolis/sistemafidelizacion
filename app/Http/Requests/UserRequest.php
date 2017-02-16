@@ -35,3 +35,4 @@ class UserRequest extends Request
         ];
     }
 }
+
